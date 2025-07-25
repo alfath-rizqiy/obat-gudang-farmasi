@@ -26,11 +26,13 @@
                     </x-nav-link>
                     <x-nav-link :href="route('aturanpakais.index')" :active="request()->routeIs('aturanpakais.index')">
                         {{ __('Aturan Pakai') }}
+                    </x-nav-link>
                      <x-nav-link :href="route('kategoris.index')" :active="request()->routeIs('kategoris.index')">
                         {{ __('Kategori') }}
                     </x-nav-link>
                     <x-nav-link :href="route('metode_pembayaran.index')" :active="request()->routeIs('metode_pembayaran.index')">
                         {{ __('Metode Pembayaran') }}
+                    </x-nav-link>
                     <x-nav-link :href="route('satuankecils.index')" :active="request()->routeIs('satuankecils.index')">
                         {{ __('Satuan Kecil') }}
                     </x-nav-link>
